@@ -10,7 +10,8 @@ A lightweight command-line utility to quickly back up files and directories with
 
 ## 📸 Demo
 
-![CLI Tool Screenshot](assets/demo.png)
+![image](<img width="1618" height="3092" alt="carbon" src="https://github.com/user-attachments/assets/1c104b7f-5ef7-49c7-b7b9-70445b6a3426" />
+)
 
 ---
 
