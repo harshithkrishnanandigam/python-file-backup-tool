@@ -17,3 +17,11 @@ Clone the project locally:
 ```bash
 git clone [https://github.com/harshithkrishnanandigam/python-file-backup-tool.git](https://github.com/harshithkrishnanandigam/python-file-backup-tool.git)
 cd python-file-backup-tool
+```
+
+### Usage
+
+Run the tool from your terminal by providing the source path (the folder you want to copy) and the target path (where you want the backup saved):
+
+```bash
+python file_backup.py --source /path/to/source --target /path/to/backup
