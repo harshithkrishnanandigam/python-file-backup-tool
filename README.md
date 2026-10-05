@@ -1,27 +1,40 @@
-# Python File Backup Tool
+# 📦 Python File Backup Tool
 
-A lightweight, automated CLI utility written in Python for backing up files locally and keeping logs of backup events.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
-## Features
-- **Automated Copying**: Copy files or whole directories safely to a destination folder.
-- **Activity Logging**: Track backup operations with timestamped log entries.
-- **Configurable Paths**: Easily specify source and target directories.
+A lightweight command-line utility to quickly back up files and directories with progress tracking and logging.
 
-## Prerequisites
-- Python 3.8 or higher
+---
 
-## Getting Started
+## 📸 Demo
 
-### Installation
-Clone the project locally:
+![CLI Tool Screenshot](assets/demo.png)
+
+---
+
+## ✨ Features
+
+* 🚀 **Fast Copying**: Efficiently transfers large files and directories.
+* 📝 **Automated Logging**: Keeps track of backup operations with detailed timestamps.
+* 🛡️ **Safe Overwrites**: Prevents accidental file loss with user confirmation prompts.
+
+---
+
+## ⚙️ Command-Line Arguments
+
+| Flag | Type | Required | Description |
+| :--- | :--- | :---: | :--- |
+| `--source` | `path` | **Yes** | Path to the source file or directory |
+| `--target` | `path` | **Yes** | Path to the target backup location |
+| `--log` | `path` | **No** | Custom path for output logs (Default: `backup.log`) |
+
+---
+
+## 💻 Example Usage
+
+Run the tool from your terminal:
+
 ```bash
-git clone [https://github.com/harshithkrishnanandigam/python-file-backup-tool.git](https://github.com/harshithkrishnanandigam/python-file-backup-tool.git)
-cd python-file-backup-tool
-```
-
-### Usage
-
-Run the tool from your terminal by providing the source path (the folder you want to copy) and the target path (where you want the backup saved):
-
-```bash
-python file_backup.py --source /path/to/source --target /path/to/backup
+python file_backup.py --source ./my_folder --target ./backup_folder
