@@ -32,21 +32,17 @@ A lightweight command-line utility to quickly back up files and directories with
 
 ---
 
-## 💻 Example Usage
+## 💻 Example Usage & Terminal Output
 
 Run the tool from your terminal:
 
 ```bash
 python file_backup.py --source ./my_folder --target ./backup_folder
 ```
+Expected Terminal Output:
 
-## Terminal Output
-
-Plaintext
+```bash
 [2026-10-05 22:24:46] INFO: Starting backup from './my_folder' to './backup_folder'...
 [2026-10-05 22:24:47] INFO: Copying 12 files...
-[2026-10-05 22:24:48] SUCCESS: Backup completed successfully
-
-##📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+[2026-10-05 22:24:48] SUCCESS: Backup completed successfully.
+```
